@@ -1,0 +1,53 @@
+{
+   "tournament":
+   {
+      "name": "Final Countdown",
+      "nPlayers": 1000,
+   }
+   "players":
+   [
+      {
+         "id": 1,
+         "scoreExpectation": 35,
+         "scoreVariance": 10,
+         "availability": 0.1,
+         "battles": [1, 4, 5],
+         "scores": [10, 10, 14],
+      },
+      {
+         "id": 2,
+         "scoreExpectation": 55,
+         "scoreVariance": 5,
+         "availability": 0.7,
+         "battles": [1, 4, 5, 7, 8],
+         "scores": [10, 11, 20, 25, 30],
+      }
+   ],
+   "battles":
+   [
+      {
+         "id": 1,
+         "time": 1,
+         "teams":
+         [
+            {
+               "id": 1,
+               "members": [1, 2, 5],
+               "individualScores": [35, 60, 4],
+               "teamScore": 33,
+               "rank": 2
+            },
+            {
+               "id": 2,
+               "members": [3, 4],
+               "individualScores": [70, 60],
+               "teamScore": 65,
+               "rank": 1
+            },
+         ]
+         
+      },
+      {
+      }
+   ]
+}

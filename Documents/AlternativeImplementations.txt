@@ -1,0 +1,16 @@
+Other TrueSkill implementations and applications:
+
+Wind Jammers Ranking
+   Language:   javascript
+   Source:     https://bitbucket.org/derekaug/windjammers-ranking
+   Details:    There's a json data base with results
+
+Alesia Component Rating System
+   Language:   Scala
+   Source:     https://bitbucket.org/alesia/alesia-component-rating-system/wiki/Home
+   Details:    This Component Rating System allows to evaluate individual 
+               components of a software system by considering performance 
+               evaluations of component combinations. It provides a default
+               implementation that is based on Microsoft's TrueSkill(tm) player
+               rating system behind a generic interface ready to be used for 
+               alternative implementations.

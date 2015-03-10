@@ -1,0 +1,22 @@
+Installation Instructions For TrueSkill (Win)
+1) git clone https://github.com/normanius/Skills.git
+   (this is a fork of Jeff Moser's original repository)
+2) Open solution Skills.sln
+3) Build project (worked for me out of the box). 
+   (Turn on TOOLS->Options->Package Manager->Allow NuGet...)
+4) To run unit-tests: 
+      a) install http://www.nunit.org/
+      b) open NUnit-Gui (nunit.exe)
+      c) open Skills/UnitTests/bin/Release/UnitTests.dll
+      d) run
+5) TOOLS->Extensions and Updates->Updates->NuGet Package manager
+
+
+Not sure exactly what NuGet Package Manager system is used for. When playing 
+around with it I had to install the following material:
+
+NuGet Package Explorer Ui
+https://npe.codeplex.com/downloads/get/clickOnce/NuGetPackageExplorer.application
+
+NuGet Command Line Bootstrapper
+https://nuget.codeplex.com/releases/view/58939
